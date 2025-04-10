@@ -6,7 +6,7 @@ import Typed from "typed.js";
 import "./Home.css";
 
 export const metadata = {
-  title: "SDpro Gebäudereinigung Münster | Professionelle Reinigungsfirma",
+  title: "Gebäudereinigung Münster – SDpro für Büro, Praxis & Fensterputzen",
   description: "SDpro bietet zuverlässige Gebäudereinigung in Münster – Büroreinigung, Praxisreinigung, Fensterputzen, Unterhaltsreinigung und mehr...",
   keywords: "Gebäudereinigung Münster, Reinigungsfirma Münster, Büroreinigung, Praxisreinigung, Fensterputzen, Unterhaltsreinigung, SDpro",
   robots: "index, follow"
