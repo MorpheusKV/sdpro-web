@@ -8,6 +8,14 @@ import Services from "@/components/Services/Services";
 import Contact from "@/components/Contact/Contakt";
 import Footer from "@/components/Footer/Footer";
 
+export const metadata = {
+  title: "Gebäudereinigung Münster – SDpro für Büro, Praxis & Fensterputzen",
+  description: "SDpro bietet zuverlässige Gebäudereinigung in Münster – Büroreinigung, Praxisreinigung, Fensterputzen, Unterhaltsreinigung und mehr...",
+  keywords: "Gebäudereinigung Münster, Reinigungsfirma Münster, Büroreinigung, Praxisreinigung, Fensterputzen, Unterhaltsreinigung, SDpro",
+  robots: "index, follow"
+};
+
+
 export default function Page() {
   return (
     <main>
