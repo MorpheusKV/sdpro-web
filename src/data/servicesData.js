@@ -8,7 +8,7 @@ export const services = [
     },
     {
       title: "Praxisreinigung",
-      image: "/images/praxisreinigung.webp",
+      image: "/images/praxis.webp",
       alt: "Praxisreinigung in Münster mit SDpro",
       link: "/praxisreinigung",
     },
