@@ -1,0 +1,104 @@
+
+.kontakt {
+    min-height: 100vh;
+    padding: 10rem 9% 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 13rem;
+    background: var(--bg-color);
+    background-image: url("/images/kontakt.webp");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .kontakt .heading {
+    color: black;
+    font-size: 7rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  
+  .standort {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .standort h3 {
+    margin-right: 5px;
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  
+  .standort p {
+    font-size: 2.5rem;
+    margin-top: 10px;
+  }
+  
+  .tel-mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .standort a {
+    font-size: 3rem;
+    color: black;
+    margin-top: 10px;
+    transition: 0.3s ease;
+  }
+  
+  .standort a:hover {
+    color: blue;
+  }
+  
+  /* Responsive stil */
+  @media (max-width: 768px) {
+    .kontakt {
+      padding-top: 10rem;
+      text-align: center;
+    }
+  
+    .standort h3 {
+      font-size: 3rem;
+    }
+  
+    .standort p {
+      font-size: 2rem;
+    }
+  
+    .standort a {
+      font-size: 2.5rem;
+    }
+  
+    .kontakt .heading {
+      font-size: 5rem;
+    }
+  }
+  
+  @media (max-width:  480px){
+    .kontakt {
+      padding: 8rem 5%;
+      text-align: center;
+    }
+  
+    .kontakt .heading {
+      font-size: 4rem;
+    }
+  
+    .standort h3,
+    .standort p,
+    .standort a {
+      font-size: 2rem;
+    }
+  
+    .tel-mail {
+      width: 100%;
+    }
+  }
+

@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@200;300;400;500;600;700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #4288b1;
+    --second-bg-color: #fff;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--second-bg-color); 
+    padding-top: 100px;
+    }
+    
+    .logo {
+      width: 30%;
+      font-size: 2.5rem;
+      color: black;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }
+    
+    .logo img {
+      width: 15vh;
+      padding-left: 20px;
+      margin-top: 10px;
+      height: 100px;
+    }
+    
+    .logo span {
+      color: var(--main-color);
+    }
+    
+    
+    .navbar > * {
+      font-size: 2rem;
+      color: black;
+      margin-left: 4rem;
+      transition: 0.3s;
+      padding-right: 40px;
+      text-decoration: none;
+    }
+    
+   
+    .navbar > *:hover,
+    .navbar > *.active {
+      color: var(--main-color);
+    }
+    
+    #menu-icon {
+      font-size: 3.6rem;
+      color: black;
+      display: none;
+    }
+    
+    .daten-html {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     padding: 30px;
+  }
+  
+  .daten-html h1 {
+      font-size: 2.5rem;
+  }
+  
+  .daten-html h3{
+      font-size: 1.9rem;
+      margin: 5px;
+  }
+  
+  .daten-html h4 {
+      font-size: 1.7rem;
+  }
+  
+  .daten-html p {
+      font-size: 1.6rem;
+      margin: 5px;
+  }
+  
+  .daten-html a {
+      color: black;
+      transition: 0.3s ease;
+      font-size: 1.6rem;
+  }
+  
+  .daten-html a:hover {
+      color: var(--main-color);
+  }
+    
+    
+    @media (max-width: 991px) {
+      #menu-icon {
+        display: block;
+        cursor: pointer;
+        z-index: 101;
+        margin-right: 20px;
+      }
+    
+      .navbar {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
+      .navbar.active {
+        display: flex;
+      }
+    
+      .navbar > * {
+        display: block;
+        font-size: 2rem;
+        margin: 2rem 0;
+        padding-left: 2rem;
+      }
+    
+      .navbar > *:hover {
+        color: var(--main-color);
+      }
+    }
+    
+    
+    @media (max-width: 768px) {
+      #menu-icon {
+        display: block;
+        cursor: pointer;
+        z-index: 101;
+      }
+    
+      .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
+      .navbar.active {
+        display: flex;
+      }
+    
+      .navbar > * {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        padding-left: 2rem;
+      }
+    }
+    
+    .navbar > *:hover {
+      color: var(--main-color);
+    } 
+
+
+.h-btn{
+    margin-top: 100px;
+    padding-bottom: 30rem;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: black;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+.service-page {
+    padding: 8rem 9% 5rem;
+    min-height: 100vh;
+    background-color: var(--second-bg-color);
+  }
+  
+  .service-title {
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    color: black;
+  }
+  
+  .service-subtitle {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin: 3rem 0;
+    color: black;
+  }
+  
+  .service-lists {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+  }
+  
+  .service-lists ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .service-lists li {
+    font-size: 2.2rem;
+    margin: 1.2rem 0;
+    color: black;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .service-title {
+      font-size: 3.5rem;
+    }
+  
+    .service-subtitle {
+      font-size: 2.3rem;
+      margin: 2rem 0;
+    }
+  
+    .service-lists {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 1.5rem;
+    }
+  
+    .service-lists li {
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .service-title {
+      font-size: 3rem;
+    }
+  
+    .service-subtitle {
+      font-size: 2rem;
+    }
+  
+    .service-lists li {
+      font-size: 1.8rem;
+    }
+  }
+  

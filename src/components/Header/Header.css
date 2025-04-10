@@ -1,0 +1,141 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--second-bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  
+}
+
+/* Logo */
+.logo {
+  width: 30%;
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.logo-img{
+  width: 15vh;
+  padding-left: 20px;
+  margin-top: 10px;
+  height: 100px;
+}
+
+.logo span {
+  color: var(--main-color);
+}
+
+
+.navbar > * {
+  font-size: 2rem;
+  color: black;
+  margin-left: 4rem;
+  transition: 0.3s;
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+
+.navbar > *:hover,
+.navbar > *.active {
+  color: var(--main-color);
+}
+
+#menu-icon {
+  font-size: 3.6rem;
+  color: black;
+  display: none;
+}
+
+
+@media (max-width: 991px) {
+  #menu-icon {
+    display: block;
+    cursor: pointer;
+    z-index: 101;
+    margin-right: 20px;
+  }
+
+  .logo-img {
+    width: 15vw;
+  }
+  .navbar {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3%;
+    background: var(--bg-color);
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .navbar > * {
+    display: block;
+    font-size: 2rem;
+    margin: 2rem 0;
+    padding-left: 2rem;
+  }
+
+  .navbar > *:hover {
+    color: var(--main-color);
+  }
+}
+
+
+@media (max-width: 768px) {
+  #menu-icon {
+    display: block;
+    cursor: pointer;
+    z-index: 101;
+  }
+
+  .logo-img {
+    width: 15vw;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3%;
+    background: var(--bg-color);
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .navbar > * {
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+    padding-left: 2rem;
+  }
+}
+
+.navbar > *:hover {
+  color: var(--main-color);
+}
