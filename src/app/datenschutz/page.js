@@ -96,7 +96,7 @@ möglich.</p>
 sd-pro-gebäudereinigung.de
 Münster 48167 biederlackweg 63</p>
 
-<Link href="tel:+4917620803030">Telefon: +4917620803030</Link>
+<Link href="tel:+491637724232">Telefon: +491637724232</Link>
 <Link href="mailto:info@sd-pro-gebäudereinigung.de">info@sd-pro-gebäudereinigung.de</Link>
 <p>Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über
 die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.)

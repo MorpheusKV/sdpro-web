@@ -13,7 +13,7 @@ Biederlackweg 63<br />
 48167 M&uuml;nster</p>
 
 <h2>Kontakt</h2>
-<Link href="tel:+4917620803030">Telefon: +4917620803030</Link>
+<Link href="tel:+491637724232">Telefon: +491637724232</Link>
 <Link href="mailto:info@sd-pro-gebäudereinigung.de">info@sd-pro-gebäudereinigung.de</Link>
 
 <h2>Umsatzsteuer-ID</h2>

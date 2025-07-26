@@ -15,8 +15,8 @@ export default function Contact() {
         <p>Mo - Fr: 8:00 bis 17:00 Uhr</p>
 
         <div className="tel-mail">
-          <Link href="tel:+4917620803030">
-            <i className="bx bxs-phone-call"></i> +49 176 20803030
+          <Link href="tel:+491637724232">
+            <i className="bx bxs-phone-call"></i> +491637724232
           </Link>
           <Link href="mailto:info@sd-pro-gebäudereinigung.de">
             <i className="bx bx-envelope"></i> info@sd-pro-gebäudereinigung.de
